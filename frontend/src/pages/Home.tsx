@@ -1,3 +1,7 @@
+import { ListCountries } from "../components/ListCountries";
+
 export function HomePage() {
-  return <p>You should start working here!</p>;
+  return <>
+    <ListCountries />
+  </>;
 }
